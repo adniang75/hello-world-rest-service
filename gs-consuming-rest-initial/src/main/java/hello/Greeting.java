@@ -2,16 +2,16 @@ package hello;
 
 public class Greeting {
 
-    private final Long   id;
+    private final long   id;
     private final String content;
 
-    public Greeting( Long id, String content ) {
+    public Greeting( long id, String content ) {
         super();
         this.id = id;
         this.content = content;
     }
 
-    public Long getId() {
+    public long getId() {
         return this.id;
     }
 
