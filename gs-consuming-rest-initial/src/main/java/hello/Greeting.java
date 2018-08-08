@@ -18,7 +18,5 @@ public class Greeting {
     public String getContent() {
         return this.content;
     }
-    
-    
 
 }
